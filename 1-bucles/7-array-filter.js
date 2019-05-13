@@ -34,4 +34,6 @@ let gente = [{
         edad: 10
     },
 ]
-
+const nombresJ = gente.filter(function(persona){return persona.nombre[0]==="J";});
+const edad40 = nombresJ.filter(function(joven){return joven.edad <40;});
+console.log(edad40);

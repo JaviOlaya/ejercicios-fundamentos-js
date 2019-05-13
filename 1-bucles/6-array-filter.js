@@ -33,3 +33,7 @@ let gente = [{
     },
 ]
 
+// nombres4 = gente.filter(word => nombre.length = 4);
+const nombres4 = gente.filter(function(persona){return persona.nombre.length ===4;});
+console.log(nombres4);
+    
