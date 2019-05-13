@@ -33,3 +33,11 @@ let gente = [{
         edad: 10
     },
 ]
+var nombresJ=[];
+for (var persona of gente) {
+     
+    if (persona.nombre[0]==="J") {
+        nombresJ.push(persona.nombre);
+    }
+}
+console.log(nombresJ);
