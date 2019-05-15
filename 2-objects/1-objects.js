@@ -5,9 +5,22 @@
 
 
 // Aquí tu código
+var ordenador={
+    marca: 'La pava',
+    tipo:'portátil',
+    perifericos:[0,'touchPad'],
+    almacenamiento:{
+        maestro:0,
 
+        discos:['SSD','HDD']
+    
+        
+    }
+    }
 
+;
 
+//(ordenador.almacenamiento.discos[ ordenador.almacenamiento.maestro ] === 'SSD')
 // Hasta aquí
 
 // TEST 1
