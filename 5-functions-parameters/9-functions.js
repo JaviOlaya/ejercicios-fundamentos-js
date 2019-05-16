@@ -9,7 +9,14 @@
 //  throw new Error('muestraPorConsolaEurosEnPesetas debe recibir un number');
 
 // Aquí tu código
+    function muestraPorConsolaEurosEnPesetas(params) {
+        if (typeof params ==='number') {
+            console.log(params*168);
+        } else {
+            throw new Error('muestraPorConsolaEurosEnPesetas debe recibir un number');
 
+        }
+    }
 
 // Hasta aquí
 

@@ -7,7 +7,15 @@
 //  throw new Error('convierteEurosEnPesetas debe recibir un number');
 
 // Aquí tu código
-
+function convierteEurosEnPesetas(rnd) {
+    if (typeof rnd !=='number') {
+         throw new Error('convierteEurosEnPesetas debe recibir un number');
+    } else {
+        
+    
+    return rnd*168;
+    }
+}
 // Hasta aquí
 
 
